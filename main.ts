@@ -269,6 +269,7 @@ anim.addAnimationFrame(img`
     . . c b d d d d d 5 5 5 b b . . 
     . . . c c c c c c c c b b . . . 
     `)
+animation.attachAnimation(mySprite, anim)
 game.onUpdateInterval(1500, function () {
     if (Gap == 0) {
         Top = img`
